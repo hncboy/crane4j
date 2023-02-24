@@ -56,7 +56,7 @@ module.exports = {
   title: 'Cranej4',
   description: 'Cranej4, 基于注解的数据关联框架',
   base: '/crane4j/',
-  base: './',
+  // base: './',
   dest: "./../docs/",
   head: [
     ['link', { rel: 'icon', href: 'CRANE4J_ICON.png'}]
