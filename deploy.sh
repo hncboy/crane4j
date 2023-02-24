@@ -4,6 +4,6 @@ echo '构建完毕......'
 cd ..
 git add .
 git commit -m 'docs: update doc'
-git push github gh-pages
+git push origin gh-pages
 echo '推送完毕......'
 read -n 1
