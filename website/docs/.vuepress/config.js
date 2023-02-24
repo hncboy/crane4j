@@ -55,7 +55,7 @@ const sidebarConfig = [
 module.exports = {
   title: 'Cranej4',
   description: 'Cranej4, 基于注解的数据关联框架',
-  // base: '/crane4j/',
+  base: '/crane4j/',
   base: './',
   dest: "./../docs/",
   head: [
