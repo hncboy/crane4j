@@ -16,7 +16,7 @@ const navConfig = [
 const sidebarConfig = [
       {
         title: '入门',
-        path: '/basic/',
+        path: '/basic/1.用户指南.md',
         collapsable: false, // 不折叠
         children: [
           { title: "1.用户指南", path: "/basic/1.用户指南.md" },
@@ -27,14 +27,14 @@ const sidebarConfig = [
       },
       {
         title: "使用",
-        path: '/advance/',
+        path: '/advance/1.数据源容器.md',
         collapsable: false, // 不折叠
         children: [
           { title: "1.数据源容器", path: "/advance/1.数据源容器.md" },
           { title: "2.装配操作", path: "/advance/2.装配操作.md" },
           { title: "3.字段映射", path: "/advance/3.字段映射.md" },
           { title: "4.拆卸操作", path: "/advance/4.拆卸操作.md" },
-          { title: "5.自动填充", path: "/advance/5.自动填充.md" },
+          { title: "5.手动&自动填充", path: "/advance/5.手动&自动填充.md" },
           { title: "6.分组过滤", path: "/advance/6.分组过滤.md" },
           { title: "7.缓存", path: "/advance/7.缓存.md" },
           { title: "8.操作执行器", path: "/advance/8.操作执行器.md" }
@@ -42,7 +42,7 @@ const sidebarConfig = [
       },
       {
         title: "其他",
-        path: '/other/',
+        path: '/other/联系作者.md',
         collapsable: false, // 不折叠
         children: [
           { title: "联系作者", path: "/other/联系作者.md" },
