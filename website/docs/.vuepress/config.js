@@ -37,7 +37,8 @@ const sidebarConfig = [
           { title: "5.手动&自动填充", path: "/advance/5.手动&自动填充.md" },
           { title: "6.分组过滤", path: "/advance/6.分组过滤.md" },
           { title: "7.缓存", path: "/advance/7.缓存.md" },
-          { title: "8.操作执行器", path: "/advance/8.操作执行器.md" }
+          { title: "8.操作执行器", path: "/advance/8.操作执行器.md" },
+          { title: "9.容器提供者", path: "/advance/9.容器提供者.md" }
         ],
       },
       {
