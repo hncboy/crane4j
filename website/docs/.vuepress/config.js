@@ -42,6 +42,14 @@ const sidebarConfig = [
         ],
       },
       {
+        title: "扩展",
+        path: '/extension/1.MybaitsPlus扩展.md',
+        collapsable: false, // 不折叠
+        children: [
+          { title: "1.MybaitsPlus扩展", path: "/extension/1.MybaitsPlus扩展.md" }
+        ],
+      },
+      {
         title: "其他",
         path: '/other/联系作者.md',
         collapsable: false, // 不折叠
