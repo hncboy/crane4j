@@ -43,10 +43,10 @@ const sidebarConfig = [
       },
       {
         title: "扩展",
-        path: '/extension/1.MybaitsPlus扩展.md',
+        path: '/extension/1.MybatisPlus扩展.md',
         collapsable: false, // 不折叠
         children: [
-          { title: "1.MybaitsPlus扩展", path: "/extension/1.MybaitsPlus扩展.md" }
+          { title: "1.MybatisPlus扩展.md", path: "/extension/1.MybatisPlus扩展.md" }
         ],
       },
       {
@@ -65,7 +65,7 @@ module.exports = {
   title: 'Cranej4',
   description: 'Cranej4, 基于注解的数据关联框架',
   base: '/crane4j/',
-  // base: './',
+//   base: './',
   dest: "./../docs/",
   head: [
     ['link', { rel: 'icon', href: 'CRANE4J_ICON.png'}]
