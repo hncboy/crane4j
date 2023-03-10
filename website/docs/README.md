@@ -14,5 +14,5 @@ features:
   details: 提供方法返回值与方法参数的自动填充，多线程填充，自定义符合注解以及表达式等可选功能
 ---
 ::: slot footer
-footer: Apache-2.0 Licensed | Copyright © 2023 [粤ICP备2023016917号](https://beian.miit.gov.cn)
+Apache-2.0 Licensed | Copyright © 2023 [粤ICP备2023016917号](https://beian.miit.gov.cn)
 :::
