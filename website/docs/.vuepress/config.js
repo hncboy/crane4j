@@ -2,12 +2,19 @@
 const navConfig = [
       { text: '首页', link: '/' },
       { text: '文档', link: '/basic/1.用户指南.md' },
-      { 
-        text: '关于作者', 
+      {
+        text: '关于作者',
         items: [
           { text: 'Github', link: 'https://github.com/Createsequence/' },
           { text: 'Gitee', link: 'https://gitee.com/CreateSequence' },
           { text: 'Blog', link: 'https://blog.xiajibagao.top' }
+        ]
+      },
+      {
+        text: '源码',
+        items: [
+          { text: 'GitHub', link: 'https://github.com/opengoofy/crane4j' },
+          { text: 'Gitee', link: 'https://gitee.com/CreateSequence/crane4j' }
         ]
       }
     ];
@@ -73,7 +80,7 @@ module.exports = {
   themeConfig: {
     // logo: 'CRANE4J_ICON.png',
     // git仓库
-    repo: 'https://github.com/Createsequence/crane4j',
+    repo: 'https://github.com/opengoofy/crane4j',
     sidebarDepth: 3,
     // 配置首页导航栏
     nav: navConfig,
